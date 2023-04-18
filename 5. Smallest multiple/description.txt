@@ -1,0 +1,19 @@
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+Para 1 a 10, temos:
+2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10
+Porém, 4 = 2*2 e 8 = 4*2 = 2*2*2
+Logo, precisamos apenas de 3 fatores 2.
+6 = 3 * 2, então precisamos de 1 fator 3 e 1 fator 2.
+9 = 3 * 3, então precisamos de 2 fatores 3
+E 10 = 5 * 2, então precisamos de 1 fator 5 e 1 fator 2.
+Assim podemos reduzir os fatores de forma a fazer todas as combinações possíveis.
+2*2*2*3*3*5*7
+
+Inicializar uma lista contendo o número 2.
+
+De 2 a 20, para cada número:
+    iterar pela lista dividindo o numero pelo elemento iterado (se numero mod elemnento = 0)
+    ao termino da iteração da lista, se resultado do numero for != 0, adicionar numero restante à lista
