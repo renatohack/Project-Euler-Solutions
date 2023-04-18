@@ -3,9 +3,6 @@ import java.util.stream.IntStream;
 
 public class Main {
 
-    static double number = 6008514751434332424545342353323D;
-    static long backup = 8462696833L;
-
     public static void main(String[] args) {
         
         int[] arrNumbers = IntStream.range(3, 21).toArray();
