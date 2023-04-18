@@ -1,4 +1,4 @@
-public class Main {
+public class SumSquareDifference {
 
     public static void main(String[] args) {
         
@@ -12,14 +12,11 @@ public class Main {
 
     static int sumPA(int initialN, int finalN){
         int sum = finalN * (initialN + finalN) / 2;
-
-        System.out.println(sum);
         return sum;
     }
 
     static int sumSquares(int n){
         int sum = n * (2*n + 1) * (n + 1) / 6;
-        System.out.println(sum);
         return sum;
     }
 

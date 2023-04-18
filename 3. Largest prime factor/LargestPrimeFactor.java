@@ -1,4 +1,4 @@
-public class Main {
+public class LargestPrimeFactor {
 
     static double number = 6008514751434332424545342353323D;
     static long backup = 8462696833L;

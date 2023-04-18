@@ -1,4 +1,4 @@
-public class Main {
+public class MultiplesThreeFive {
     public static void main(String[] args) {
         
         int sum = 0;

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class Main {
+public class SmallestMultiple {
 
     public static void main(String[] args) {
         
